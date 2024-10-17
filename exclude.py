@@ -19,3 +19,13 @@ while dog:
       print("Great! Let's keep going!")  # Keep looping if the user says "yes"
   else:
       print("Please enter a valid response (y/n)")  # Prompt again if the input is invalid
+
+
+print("heads or tails")
+new_number = input("Do you think it is heads or tails, (1 is tails, 2 is heads)")
+if new_number == 1:
+  print("It was heads!")
+elif new_number == 2:
+  print("It was tails!")
+else:
+  print("input 1 or 2 nect time >:(")
